@@ -1,0 +1,37 @@
+@inject SiteConfig Config
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div class="footer-brand">
+            <a class="brand" href="/">
+                <span class="brand-mark">@Config.SiteName[0]</span>
+                <span>
+                    <strong>@Config.SiteName</strong>
+                    <small>@Config.SiteSlogan</small>
+                </span>
+            </a>
+            <p>@Config.FooterTagline</p>
+            <div class="social-row">
+                @foreach (var social in Config.SocialLinks)
+                {
+                    <a href="@social.Url" aria-label="@social.Platform">@social.Icon</a>
+                }
+            </div>
+        </div>
+
+        @foreach (var column in Config.FooterColumns)
+        {
+            <div class="footer-column">
+                <h3>@column.Title</h3>
+                @foreach (var link in column.Links)
+                {
+                    <a href="@link.Url">@link.Label</a>
+                }
+            </div>
+        }
+    </div>
+    <div class="container footer-bottom">
+        <span>Copyright @Config.CopyrightYear @Config.SiteName. All rights reserved.</span>
+        <span>Built with Blazor and .NET.</span>
+    </div>
+</footer>

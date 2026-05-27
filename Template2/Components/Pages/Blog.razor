@@ -1,0 +1,46 @@
+@page "/blog"
+@inject SiteConfig Config
+
+<PageTitle>Blog - @Config.SiteName</PageTitle>
+
+<section class="page-hero">
+    <div class="container narrow reveal">
+        <span class="eyebrow">The Blog</span>
+        <h1>Stories, Recipes, and Real Farm Life</h1>
+        <p>Four family members. One farm. Lots of food. Pull up a chair and read something good.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="blog-author-bar reveal">
+            <span>Written by our family:</span>
+            <div class="blog-author-chips">
+                <span class="author-chip">Michelle</span>
+                <span class="author-chip">Jake</span>
+                <span class="author-chip">Maddie</span>
+                <span class="author-chip">Cooper</span>
+            </div>
+        </div>
+        <div class="blog-grid">
+            @foreach (var post in Config.BlogPosts)
+            {
+                <article class="blog-card reveal">
+                    <div class="blog-art" style="background-image:url('@post.ImageUrl')">
+                        <span>@post.Category</span>
+                    </div>
+                    <div class="blog-content">
+                        <small>@post.Date &middot; @post.ReadTime</small>
+                        <h3>@post.Title</h3>
+                        <p>@post.Excerpt</p>
+                        <div class="blog-author">
+                            <div class="blog-author-avatar">@post.Author[0]</div>
+                            <span>by @post.Author</span>
+                        </div>
+                        <a href="#">Read article</a>
+                    </div>
+                </article>
+            }
+        </div>
+    </div>
+</section>

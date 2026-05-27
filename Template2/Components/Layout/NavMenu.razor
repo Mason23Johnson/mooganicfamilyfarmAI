@@ -1,0 +1,27 @@
+@inject SiteConfig Config
+
+<header class="site-header" data-nav>
+    <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="@Config.SiteName home">
+            <span class="brand-mark">@Config.SiteName[0]</span>
+            <span>
+                <strong>@Config.SiteName</strong>
+                <small>@Config.SiteSlogan</small>
+            </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" data-nav-menu>
+            @foreach (var item in Config.NavItems)
+            {
+                <NavLink href="@item.Url" Match="@(item.Url == "/" ? NavLinkMatch.All : NavLinkMatch.Prefix)">@item.Label</NavLink>
+            }
+            <a class="btn btn-primary nav-cta" href="@Config.NavCTAUrl">@Config.NavCTALabel</a>
+        </nav>
+    </div>
+</header>

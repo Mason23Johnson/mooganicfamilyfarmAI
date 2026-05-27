@@ -1,0 +1,29 @@
+@page "/pricing"
+@inject SiteConfig Config
+
+<PageTitle>Pricing - @Config.SiteName</PageTitle>
+
+<section class="page-hero">
+    <div class="container narrow reveal">
+        <span class="eyebrow">Pricing</span>
+        <h1>Clear Packages For Products, Services, Memberships, Or Retainers</h1>
+        <p>Use the same cards for subscription tiers, consulting packages, event menus, care plans, or ecommerce bundles.</p>
+    </div>
+</section>
+
+<PricingTable />
+
+<section class="section alt">
+    <div class="container faq-grid">
+        <SectionHeader Eyebrow="FAQ" Title="Common Questions" Description="Replace these with objections your buyers ask before they commit." />
+        <div class="faq-list">
+            @foreach (var faq in Config.Faqs)
+            {
+                <details class="faq-item reveal">
+                    <summary>@faq.Question</summary>
+                    <p>@faq.Answer</p>
+                </details>
+            }
+        </div>
+    </div>
+</section>

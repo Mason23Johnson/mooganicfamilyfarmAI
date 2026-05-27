@@ -1,0 +1,191 @@
+@page "/"
+@inject SiteConfig Config
+
+<PageTitle>@Config.SiteName - @Config.Tagline</PageTitle>
+
+<section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+        <span></span><span></span><span></span>
+    </div>
+    <div class="container hero-grid">
+        <div class="hero-copy reveal">
+            <span class="eyebrow">@Config.HeroPreLabel</span>
+            <h1>@Config.HeroHeadline</h1>
+            <p>@Config.HeroSubheadline</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="@Config.HeroPrimaryUrl">@Config.HeroPrimaryCTA</a>
+                <a class="btn btn-ghost" href="@Config.HeroSecondaryUrl">@Config.HeroSecondaryCTA</a>
+            </div>
+            <div class="mini-proof">
+                <span>200+ Family Recipes</span>
+                <span>4 Writers, 1 Family</span>
+                <span>Grown from the Heart</span>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="hero-farm-card">
+                <img
+                    src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=820&q=85&auto=format&fit=crop"
+                    alt="Golden farm field at sunset"
+                    class="hero-farm-img" />
+                <div class="hero-farm-badge">
+                    <strong>Mooganic Family Farm</strong>
+                    <small>Real food. Real family. Real farm.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <SectionHeader Eyebrow="What We Share" Title="From Our Farm Table To Yours" Description="Food is how families stay close. Here's what you'll find on Mooganic Family Farm." />
+        <div class="bento-grid">
+            @foreach (var feature in Config.Features)
+            {
+                <article class="bento-card reveal @feature.Span">
+                    <Icon Name="@feature.Icon" />
+                    <h3>@feature.Title</h3>
+                    <p>@feature.Description</p>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="stats-band">
+    <div class="container stats-grid">
+        @foreach (var stat in Config.Stats)
+        {
+            <div class="stat-card reveal">
+                <strong>@stat.Value</strong>
+                <span>@stat.Label</span>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="section alt">
+    <div class="container">
+        <SectionHeader Eyebrow="Latest Posts" Title="Fresh From The Blog" Description="Pull up a chair. Here's what the family has been writing about." />
+        <div class="blog-grid">
+            @foreach (var post in Config.BlogPosts.Take(3))
+            {
+                <article class="blog-card reveal">
+                    <div class="blog-art" style="background-image:url('@post.ImageUrl')">
+                        <span>@post.Category</span>
+                    </div>
+                    <div class="blog-content">
+                        <small>@post.Date &middot; @post.ReadTime</small>
+                        <h3>@post.Title</h3>
+                        <p>@post.Excerpt</p>
+                        <div class="blog-author">
+                            <div class="blog-author-avatar">@post.Author[0]</div>
+                            <span>by @post.Author</span>
+                        </div>
+                        <a href="/blog">Read more</a>
+                    </div>
+                </article>
+            }
+        </div>
+        <div style="text-align:center; margin-top:40px;">
+            <a class="btn btn-primary" href="/blog">See All Posts</a>
+        </div>
+    </div>
+</section>
+
+<section class="section pinterest-section">
+    <div class="container">
+        <SectionHeader Eyebrow="Find Us On Pinterest" Title="Our Pinterest Boards" Description="We pin everything we love. Recipes, garden tips, farm life, and more. Come follow along!" />
+        <div class="pinterest-grid">
+            @foreach (var board in Config.PinterestBoards)
+            {
+                <a class="pinterest-card reveal" href="@board.PinterestUrl" target="_blank" rel="noopener">
+                    <div class="pinterest-card-img" style="background-image:url('@board.ImageUrl')"></div>
+                    <div class="pinterest-card-body">
+                        <h3>@board.Title</h3>
+                        <p>@board.Description</p>
+                        <span class="btn btn-ghost">View Board</span>
+                    </div>
+                </a>
+            }
+        </div>
+        <div style="text-align:center; margin-top:40px;">
+            <a class="btn btn-primary" href="@Config.PinterestUrl" target="_blank" rel="noopener">Follow Us On Pinterest</a>
+        </div>
+    </div>
+</section>
+
+<section class="section alt">
+    <div class="container">
+        <SectionHeader Eyebrow="Topics We Love" Title="What You'll Find On The Blog" Description="Browse by topic and find something good for your family." />
+        <div class="service-grid">
+            @foreach (var service in Config.Services)
+            {
+                <article class="service-card reveal">
+                    <Icon Name="@service.Icon" />
+                    <h3>@service.Title</h3>
+                    <p>@service.Description</p>
+                    <ul>
+                        @foreach (var detail in service.Details)
+                        {
+                            <li>@detail</li>
+                        }
+                    </ul>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section process-section">
+    <div class="container process-grid">
+        <div>
+            <span class="eyebrow">How It Works</span>
+            <h2>Grow It. Cook It. Share It.</h2>
+            <p>That's all this blog has ever been. A family farm, a kitchen, and a genuine love of sharing what's good.</p>
+            <a class="btn btn-primary" href="/about">Meet Our Family</a>
+        </div>
+        <div class="steps">
+            @foreach (var step in Config.Steps)
+            {
+                <article class="step-card reveal">
+                    <span>@step.Number</span>
+                    <div>
+                        <h3>@step.Title</h3>
+                        <p>@step.Description</p>
+                    </div>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section testimonials-section">
+    <div class="container">
+        <SectionHeader Eyebrow="Reader Love" Title="What Our Community Is Saying" Description="We're so grateful for every reader who cooks along with us, grows something new, or just stops by to say hi." />
+        <div class="testimonial-grid">
+            @foreach (var testimonial in Config.Testimonials)
+            {
+                <article class="testimonial-card reveal">
+                    <div class="stars">@(new string('★', testimonial.Stars))</div>
+                    <p>"@testimonial.Quote"</p>
+                    <div>
+                        <strong>@testimonial.Name</strong>
+                        <span>@testimonial.Role</span>
+                    </div>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container cta-card reveal">
+        <span class="eyebrow">Stay Connected</span>
+        <h2>Come Join Our Little Corner of the Internet</h2>
+        <p>Real recipes, honest farm stories, and a family that actually shows up. We'd love to have you around.</p>
+        <a class="btn btn-light" href="/contact">Say Hello</a>
+    </div>
+</section>

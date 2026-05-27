@@ -1,0 +1,64 @@
+@page "/about"
+@inject SiteConfig Config
+
+<PageTitle>About - @Config.SiteName</PageTitle>
+
+<section class="page-hero">
+    <div class="container narrow reveal">
+        <span class="eyebrow">Our Story</span>
+        <h1>A Real Family On A Real Farm</h1>
+        <p>@Config.AboutMission</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container split-section">
+        <div class="story-card reveal">
+            <span class="eyebrow">How It Started</span>
+            <h2>From One Recipe Notebook To A Family Blog</h2>
+            <p>@Config.AboutStory</p>
+            <div style="margin-top:24px;">
+                <img
+                    src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop"
+                    alt="Family farm meal"
+                    style="width:100%; border-radius:8px; display:block;" />
+            </div>
+        </div>
+        <div class="value-grid">
+            @foreach (var value in Config.Values)
+            {
+                <article class="value-card reveal">
+                    <Icon Name="@value.Icon" />
+                    <h3>@value.Title</h3>
+                    <p>@value.Description</p>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section alt">
+    <div class="container">
+        <SectionHeader Eyebrow="The Family" Title="Meet The Writers" Description="Four people. One dog. One farm. And a whole lot of opinions about food." />
+        <div class="team-grid">
+            @foreach (var member in Config.Team)
+            {
+                <article class="team-card reveal">
+                    <div class="avatar">@member.Name.Split(' ')[0][0]@member.Name.Split(' ')[1][0]</div>
+                    <h3>@member.Name</h3>
+                    <span>@member.Role</span>
+                    <p>@member.Bio</p>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container narrow" style="text-align:center;">
+        <span class="eyebrow">Come Say Hi</span>
+        <h2>We Love Hearing From You</h2>
+        <p style="margin-bottom:32px;">Got a recipe question, a chicken question, or just want to tell us something turned out delicious? We really do read every message.</p>
+        <a class="btn btn-primary" href="/contact">Send Us a Note</a>
+    </div>
+</section>
