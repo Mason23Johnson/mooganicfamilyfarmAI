@@ -1656,3 +1656,88 @@ textarea:focus {
         grid-template-columns: 1fr;
     }
 }
+
+/* ── Brand logo (replaces letter mark) ──────────────────────────────────── */
+
+.brand-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.site-footer .brand-logo {
+    width: 38px;
+    height: 38px;
+}
+
+/* ── Blog detail / article page ──────────────────────────────────────────── */
+
+.article-hero {
+    width: 100%;
+    height: clamp(260px, 38vw, 500px);
+    object-fit: cover;
+    border-radius: var(--radius);
+    margin-bottom: 32px;
+    display: block;
+}
+
+.article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    font-size: .93rem;
+    color: var(--muted);
+}
+
+.article-meta .author-chip {
+    font-size: .88rem;
+    padding: 4px 12px;
+}
+
+.article-body {
+    font-size: clamp(1rem, 1.6vw, 1.13rem);
+    line-height: 1.82;
+    color: var(--text);
+    max-width: 720px;
+}
+
+.article-body h3 {
+    font-size: clamp(1.15rem, 2vw, 1.4rem);
+    margin: 32px 0 12px;
+    color: var(--text);
+}
+
+.article-body p {
+    margin-bottom: 20px;
+}
+
+.article-body ul, .article-body ol {
+    padding-left: 24px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 8px;
+    color: var(--muted);
+}
+
+.article-body strong {
+    color: var(--text);
+}
+
+.article-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: .93rem;
+    text-decoration: none;
+    margin-bottom: 32px;
+}
+
+.article-back:hover {
+    text-decoration: underline;
+}
