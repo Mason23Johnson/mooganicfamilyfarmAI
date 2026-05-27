@@ -261,14 +261,16 @@ p {
     top: 0;
     z-index: 50;
     height: var(--header-height);
-    transition: background .25s ease, box-shadow .25s ease, border .25s ease;
+    background: transparent;
+    transition: background .3s ease, box-shadow .3s ease, border-color .3s ease, backdrop-filter .3s ease;
 }
 
 .site-header.scrolled {
-    background: color-mix(in srgb, var(--surface), transparent 10%);
+    background: color-mix(in srgb, var(--surface) 88%, transparent);
     border-bottom: 1px solid var(--line);
-    box-shadow: 0 10px 40px rgba(18, 26, 46, .08);
-    backdrop-filter: blur(18px);
+    box-shadow: 0 4px 24px rgba(18, 26, 46, .07);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .nav-wrap {
