@@ -1,6 +1,59 @@
 (() => {
-  let observer;
+  // ── Intersection observer (tracks viewport entry) ────────────────────────
+  let revealObserver = null;
 
+  const observe = (el) => {
+    if (revealObserver && !el.classList.contains("visible")) {
+      revealObserver.observe(el);
+    }
+  };
+
+  const buildRevealObserver = () => {
+    if (!("IntersectionObserver" in window)) {
+      // No IO support — just show everything
+      document.querySelectorAll(".reveal").forEach((el) =>
+        el.classList.add("visible")
+      );
+      return;
+    }
+
+    revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.08 }
+    );
+
+    // Observe anything already in the DOM
+    document.querySelectorAll(".reveal:not(.visible)").forEach(observe);
+
+    // ── MutationObserver: catch elements added by Blazor WASM after load ───
+    const mo = new MutationObserver((mutations) => {
+      mutations.forEach((mut) => {
+        mut.addedNodes.forEach((node) => {
+          if (node.nodeType !== 1) return; // elements only
+          if (node.classList && node.classList.contains("reveal")) {
+            observe(node);
+          }
+          // Also scan descendants
+          if (node.querySelectorAll) {
+            node
+              .querySelectorAll(".reveal:not(.visible)")
+              .forEach(observe);
+          }
+        });
+      });
+    });
+
+    mo.observe(document.body, { childList: true, subtree: true });
+  };
+
+  // ── Sticky nav + mobile hamburger ────────────────────────────────────────
   const initNav = () => {
     const header = document.querySelector("[data-nav]");
     const toggle = document.querySelector("[data-nav-toggle]");
@@ -21,9 +74,8 @@
         const open = menu.classList.toggle("open");
         toggle.setAttribute("aria-expanded", String(open));
       });
-
-      menu.addEventListener("click", (event) => {
-        if (event.target.closest("a")) {
+      menu.addEventListener("click", (e) => {
+        if (e.target.closest("a")) {
           menu.classList.remove("open");
           toggle.setAttribute("aria-expanded", "false");
         }
@@ -31,31 +83,19 @@
     }
   };
 
-  const initReveal = () => {
-    const revealItems = document.querySelectorAll(".reveal:not(.visible)");
-    if (!("IntersectionObserver" in window)) {
-      revealItems.forEach((item) => item.classList.add("visible"));
-      return;
-    }
-
-    if (observer) observer.disconnect();
-    observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
-
-    revealItems.forEach((item) => observer.observe(item));
-  };
-
+  // ── Boot ─────────────────────────────────────────────────────────────────
   const init = () => {
     initNav();
-    initReveal();
+    buildRevealObserver();
   };
 
-  init();
-  document.addEventListener("enhancedload", init);
+  // Run immediately (handles static content) and also after Blazor navigates
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+
+  // Blazor WASM fires this on soft navigation; re-init nav state
+  document.addEventListener("enhancedload", initNav);
 })();
