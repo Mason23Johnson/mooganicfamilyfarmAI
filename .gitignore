@@ -1,0 +1,57 @@
+# ============================================================
+# Mooganic Family Farm — .gitignore
+# Only the compiled /docs output is tracked.
+# All source code stays local and private.
+# ============================================================
+
+# --- Source project (never commit) ---
+Template2/
+
+# --- Publish temp dirs ---
+publish_temp/
+publish_output/
+publish/
+
+# --- Operating system ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- IDEs & editors ---
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# --- .NET / C# build artifacts (outside Template2) ---
+*.dll
+*.exe
+*.pdb
+*.obj
+bin/
+obj/
+
+# --- Secrets ---
+*.env
+*.env.local
+.env.*
+secrets.json
+appsettings.local.json
+appsettings.*.json
+
+# --- Misc ---
+*.orig
+*.bak
+*.tmp
+*.log
+node_modules/
+npm-debug.log*
