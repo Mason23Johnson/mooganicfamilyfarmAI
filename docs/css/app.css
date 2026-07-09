@@ -1700,11 +1700,43 @@ textarea:focus {
     padding: 4px 12px;
 }
 
+/* Blog article page: give the reading column more of the screen, and free the
+   article title from the global 11ch heading cap so long titles no longer stack
+   into a sky-high block that swallows the whole viewport. */
+.section:has(.article-body) > .container.narrow {
+    max-width: 960px;
+}
+
+.section:has(.article-body) > .container.narrow > h1 {
+    max-width: none;
+}
+
 .article-body {
-    font-size: clamp(1rem, 1.6vw, 1.13rem);
-    line-height: 1.82;
+    font-size: clamp(1.02rem, 1.5vw, 1.17rem);
+    line-height: 1.85;
     color: var(--text);
-    max-width: 720px;
+    max-width: none;
+}
+
+/* In-article headings — kept modest so a subhead never dwarfs the page title. */
+.article-body h1 {
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    max-width: none;
+    line-height: 1.2;
+    margin: 44px 0 14px;
+    color: var(--text);
+}
+
+.article-body h2 {
+    font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+    line-height: 1.25;
+    margin: 44px 0 14px;
+    color: var(--text);
+}
+
+.article-body h2:first-child,
+.article-body h1:first-child {
+    margin-top: 0;
 }
 
 .article-body h3 {
