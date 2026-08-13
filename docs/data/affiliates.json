@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "Floral Quilt Cover Set, Queen",
+    "description": "",
+    "affiliateUrl": "https://amazon.com/dp/B07NQHHGRH?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "59.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Vintage Brass Bedside Lamp",
+    "description": "",
+    "affiliateUrl": "https://amazon.com/dp/B084ZNHWSP?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "44.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Pressed Flower Wall Art, Set 4",
+    "description": "",
+    "affiliateUrl": "https://amazon.com/dp/B07T3FFMTV?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "32.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Lace Pillow Shams, Pair",
+    "description": "",
+    "affiliateUrl": "https://amazon.com/dp/B083QKRTW4?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "27.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Crochet Throw Blanket, Cream",
+    "description": "",
+    "affiliateUrl": "https://amazon.com/dp/B07MFZY2F2?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "49.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "XLUX Soil Moisture Meter, 3-in-1",
+    "description": "",
+    "affiliateUrl": "https://amazon.com/dp/B086ZLNDNS?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$9.99",
+    "category": "Home & Kitchen"
+  }
+]
