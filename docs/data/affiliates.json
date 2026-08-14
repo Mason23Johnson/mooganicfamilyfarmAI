@@ -86,5 +86,21 @@
     "imageUrl": "",
     "price": "$39.98",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Chesapeake Bay Candle Soy Candles, 3-Pack Assorted",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Chesapeake+Bay+Candle+Soy+Candles%2C+3-Pack+Assorted&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$24.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Glocusent Neck Reading Light, Rechargeable",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Glocusent+Neck+Reading+Light%2C+Rechargeable&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$16.99",
+    "category": "Home & Kitchen"
   }
 ]
