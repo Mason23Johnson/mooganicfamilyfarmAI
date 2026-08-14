@@ -54,5 +54,21 @@
     "imageUrl": "",
     "price": "$129.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Ollny Outdoor String Lights, 100 Ft, 2700K",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Ollny+Outdoor+String+Lights%2C+100+Ft%2C+2700K&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$25.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Solo Stove Bonfire 2.0 Smokeless Fire Pit",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Solo+Stove+Bonfire+2.0+Smokeless+Fire+Pit&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$299.99",
+    "category": "Home & Kitchen"
   }
 ]
