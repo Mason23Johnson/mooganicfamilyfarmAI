@@ -110,5 +110,21 @@
     "imageUrl": "",
     "price": "$17.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Lucid 3-Inch Gel Memory Foam Mattress Topper, Twin XL",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Lucid+3-Inch+Gel+Memory+Foam+Mattress+Topper%2C+Twin+XL&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$49.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Twinkle Star 300 LED Curtain String Lights, Warm White",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Twinkle+Star+300+LED+Curtain+String+Lights%2C+Warm+White&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$15.99",
+    "category": "Home & Kitchen"
   }
 ]
