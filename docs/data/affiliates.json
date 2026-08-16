@@ -182,5 +182,21 @@
     "imageUrl": "",
     "price": "$27.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Chunky Knit Blanket Throw for Couch, 51\"x63\" Chunky Yarn Knitted Blankets",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B0CJV25VWT?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$33.98",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Logitech MX Master 3 Advanced Wireless Mouse",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Logitech+MX+Master+3+Advanced+Wireless+Mouse&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$99.99",
+    "category": "Home & Kitchen"
   }
 ]
