@@ -214,5 +214,21 @@
     "imageUrl": "",
     "price": "$15.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Razer DeathAdder V3 Pro Wireless Gaming Mouse, 64g, 90 Hr Battery, White",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B0B6Y52YXB?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$74.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Beckham Hotel Collection Bed Pillows Standard/Queen Size Set of 2",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B01LYNW421?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$59.99",
+    "category": "Home & Kitchen"
   }
 ]
