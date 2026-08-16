@@ -198,5 +198,21 @@
     "imageUrl": "",
     "price": "$99.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Delta Children Blair Slim Nursery Glider Swivel Rocker Chair",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B072VH7Q29?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$229.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "White Classic White Duvet Cover King Size, Microfiber Duvet Cover with Zipper",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BTR42YCM?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$15.99",
+    "category": "Home & Kitchen"
   }
 ]
