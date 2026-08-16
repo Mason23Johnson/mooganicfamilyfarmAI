@@ -230,5 +230,37 @@
     "imageUrl": "",
     "price": "$59.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Lodge 10.25-Inch Cast Iron Skillet",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B00006JSUA?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$19.90",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Anolon Advanced Home Hard-Anodized Nonstick 11-Piece Cookware Set",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B083Y6XMXB?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$329.95",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "BenQ ScreenBar Pro LED Monitor Light Bar (Black)",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B0CZ9P1QW9?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$139.00",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "JALL Full-Screen Wake Up Light Sunrise Alarm Clocks for Bedrooms, White Noise Machine for Heavy Sleepers",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B081CHLF46?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$29.59",
+    "category": "Home & Kitchen"
   }
 ]
