@@ -382,5 +382,45 @@
     "imageUrl": "",
     "price": "$234.17",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Bamboo Bathtub Caddy Tray",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Bamboo+Bathtub+Caddy+Tray&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "39.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Eucalyptus Shower Bundle, Fresh",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Eucalyptus+Shower+Bundle%2C+Fresh&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "16.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Waffle-Weave Bath Mat, Cotton",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Waffle-Weave+Bath+Mat%2C+Cotton&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "22.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Apothecary Glass Bottle Set",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Apothecary+Glass+Bottle+Set&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "19.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Teak Wood Soap Dish, 2-pack",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Teak+Wood+Soap+Dish%2C+2-pack&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "12.99",
+    "category": "Home & Kitchen"
   }
 ]
