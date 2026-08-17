@@ -326,5 +326,37 @@
     "imageUrl": "",
     "price": "$62.77",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Fiskars X27 Super Splitting Axe 36\", for Taller Users on Large Logs",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B004M3BAQE?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$69.98",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Chemex Pour-Over Glass Coffeemaker - Classic Series - 6-Cup - Exclusive Packaging",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B0000YWF5E?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$47.95",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Traeger Pro 575 Wood Pellet Grill and Smoker, Black",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Traeger+Pro+575+Wood+Pellet+Grill+and+Smoker%2C+Black&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$699.00",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Vitamix 5200 Blender, Professional-Grade Blender for Smoothies, Soups, Ice Cream and More",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B008H4SLV6?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$489.99",
+    "category": "Home & Kitchen"
   }
 ]
