@@ -358,5 +358,29 @@
     "imageUrl": "",
     "price": "$489.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Weber Spirit II E-310 Propane Gas Grill",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Weber+Spirit+II+E-310+Propane+Gas+Grill&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$499.00",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "OXO Good Grips 15-Piece Kitchen Tool Set",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=OXO+Good+Grips+15-Piece+Kitchen+Tool+Set&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$89.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Christopher Knight Home Sara Acacia Wood Outdoor Bar Cart with Wheels, Rolling Kitchen Cart with Tray",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/dp/B0GTQSPMH4?tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "$234.17",
+    "category": "Home & Kitchen"
   }
 ]
