@@ -422,5 +422,93 @@
     "imageUrl": "",
     "price": "12.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Crib Mobile, Felt Cloud + Stars",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Crib+Mobile%2C+Felt+Cloud+%2B+Stars&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "29.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Boucle Glider Chair",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Boucle+Glider+Chair&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "249.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Wooden Rocking Horse Toy",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Wooden+Rocking+Horse+Toy&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "39.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Linen Curtain Panels, 2-pack",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Linen+Curtain+Panels%2C+2-pack&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "34.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "RGB LED Strip Lights 32ft",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=RGB+LED+Strip+Lights+32ft&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "19.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Gaming Chair with Footrest",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Gaming+Chair+with+Footrest&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "229.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Mechanical Keyboard, RGB, TKL",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Mechanical+Keyboard%2C+RGB%2C+TKL&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "59.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Curved Ultrawide Monitor Stand",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Curved+Ultrawide+Monitor+Stand&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "34.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Headphone Stand with RGB",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Headphone+Stand+with+RGB&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "27.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Reading Wedge Pillow",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Reading+Wedge+Pillow&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "44.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Side Table with Magazine Rack",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Side+Table+with+Magazine+Rack&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "59.99",
+    "category": "Home & Kitchen"
   }
 ]
