@@ -662,5 +662,61 @@
     "imageUrl": "",
     "price": "79.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Enamelware Mixing Bowl Set",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Enamelware+Mixing+Bowl+Set&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "39.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Mason Jar Soap Dispenser, 2-pack",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Mason+Jar+Soap+Dispenser%2C+2-pack&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "18.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Wood Spice Rack 4-tier",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Wood+Spice+Rack+4-tier&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "32.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Galvanized Tiered Tray, 2 levels",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Galvanized+Tiered+Tray%2C+2+levels&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "27.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Cotton Tea Towels Set of 6",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Cotton+Tea+Towels+Set+of+6&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "16.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Ottoman Storage Bench, Foldable",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Ottoman+Storage+Bench%2C+Foldable&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "44.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Bamboo Drawer Dividers, 4-pack",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Bamboo+Drawer+Dividers%2C+4-pack&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "16.99",
+    "category": "Home & Kitchen"
   }
 ]
