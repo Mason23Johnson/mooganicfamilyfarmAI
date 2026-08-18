@@ -582,5 +582,21 @@
     "imageUrl": "",
     "price": "189.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Vintage Brass Bedside Lamp",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Vintage+Brass+Bedside+Lamp&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "44.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Lace Pillow Shams, Pair",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Lace+Pillow+Shams%2C+Pair&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "27.99",
+    "category": "Home & Kitchen"
   }
 ]
