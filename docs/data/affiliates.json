@@ -726,5 +726,45 @@
     "imageUrl": "",
     "price": "32.99",
     "category": "Home & Kitchen"
+  },
+  {
+    "name": "Standing Desk Mat with Massage",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Standing+Desk+Mat+with+Massage&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "39.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Bamboo Monitor Stand with Drawer",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Bamboo+Monitor+Stand+with+Drawer&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "32.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Plant Stand 5-Tier Indoor",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Plant+Stand+5-Tier+Indoor&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "39.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Terracotta Planter Set of 5",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Terracotta+Planter+Set+of+5&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "29.99",
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Grow Light, Full-Spectrum",
+    "description": "",
+    "affiliateUrl": "https://www.amazon.com/s?k=Grow+Light%2C+Full-Spectrum&tag=mooganicfamil-20",
+    "imageUrl": "",
+    "price": "32.99",
+    "category": "Home & Kitchen"
   }
 ]
